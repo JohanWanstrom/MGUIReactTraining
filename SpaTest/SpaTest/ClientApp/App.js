@@ -1,13 +1,12 @@
 ﻿import React from 'react';
-import Header from './components/Header'
+import PersistentDrawer from './components/Header/Header'
 import PropTypes from 'prop-types';
 
 class App extends React.Component {
     render() {
-        console.log("HEJ" + this.props.children);
         return (
             <div>
-                <Header content={this.props.children}/>
+                <PersistentDrawer content={this.props.children}/>
             </div>
         );
 
