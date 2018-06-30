@@ -9,9 +9,7 @@ import { Router, browserHistory } from 'react-router';
 import routes from './routes';
 
 function renderApp() {
-    render(
-        <Router history={browserHistory} routes={routes}/>,
-        document.getElementById('react-app')
+    render(<h1>Tjaa</h1> , document.getElementById('react-app')
     );
 }
 
